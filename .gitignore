@@ -31,4 +31,9 @@ test-output
 #  syntax: regexp
 #  ^\.pc/
 
+#Added by Vikas
+.metals
+.vscode
+.bloop
+
 
