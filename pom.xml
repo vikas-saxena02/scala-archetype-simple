@@ -7,13 +7,13 @@
     <version>9</version>
   </parent>
 
-  <groupId>ai.raics.scala</groupId>
+  <groupId>net.alchim31.maven</groupId>
   <artifactId>scala-archetype-simple</artifactId>
-  <version>1.0</version>
+  <version>1.8-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
 
   <name>Archetype - scala-archetype-simple</name>
-  <url>http://github.com/vikas-saxena02/${project.artifactId}</url>
+  <url>http://github.com/davidB/${project.artifactId}</url>
   <inceptionYear>2018</inceptionYear>
   <description>The maven-scala-plugin is used for compiling/testing/running/documenting scala code in maven.</description>
 
@@ -26,14 +26,19 @@
   </licenses>
 
   <scm>
-    <connection>scm:git:git://github.com/vikas-saxena02/${project.artifactId}.git</connection>
-    <developerConnection>scm:git:git@github.com:vikas-saxena02/${project.artifactId}.git</developerConnection>
-    <url>http://github.com/vikas-saxena02/${project.artifactId}/</url>
+    <connection>scm:git:git://github.com/davidB/${project.artifactId}.git</connection>
+    <developerConnection>scm:git:git@github.com:davidB/${project.artifactId}.git</developerConnection>
+    <url>http://github.com/davidB/${project.artifactId}/</url>
   </scm>
 
   <issueManagement>
     <system>github</system>
     <url>http://github.com/vikas-saxena02/${project.artifactId}/issues#issue/</url>
+  </issueManagement>
+
+  <issueManagement>
+    <system>github</system>
+    <url>http://github.com/davidB/${project.artifactId}/issues#issue/</url>
   </issueManagement>
 
   <mailingLists>
@@ -46,8 +51,15 @@
 
   <developers>
     <developer>
-      <name>Vikas Saxena</name>
+      <name>David Bernard</name>
       <timezone>+1</timezone>
+    </developer>
+
+    <developer>
+      <name>Vikas Saxena</name>
+      <email>vikas.saxena.2006@gmail.com</email>
+      <id>vikas-saxena02</id>
+      <timezone>+10</timezone>
     </developer>
   </developers>
 
@@ -68,7 +80,7 @@
       <extension>
         <groupId>org.apache.maven.archetype</groupId>
         <artifactId>archetype-packaging</artifactId>
-        <version>3.0.1</version>
+        <version>3.1.1</version>
       </extension>
     </extensions>
 
